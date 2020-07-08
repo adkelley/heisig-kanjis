@@ -1,4 +1,12 @@
 # heisig-kanjis
+The file heisig-kanjis.csv was imported into Google Sheets.  In turn, using the Google Sheets API (V4) 'index.js' takes
+a kanji or kanji compound and returns the corresponding RTK keywords to the clipboard
+
+## Usage
+    node index.js 新聞
+returns 'new, hear'
+
+## CSV file format
 The file heisig-kanjis.csv contains the kanji's featured in James Heisig's "Remembering the Kanji" 1 & 3.
 Each line of the CSV file is structured as follows:
 

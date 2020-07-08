@@ -1,0 +1,22 @@
+{
+  "name": "heisig-kanjis",
+  "version": "1.0.0",
+  "description": "Sheets API for Heisig Kanjis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdcr/heisig-kanjis.git"
+  },
+  "author": "Alex Kelley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdcr/heisig-kanjis/issues"
+  },
+  "homepage": "https://github.com/sdcr/heisig-kanjis#readme",
+  "dependencies": {
+    "googleapis": "^39.2.0"
+  }
+}

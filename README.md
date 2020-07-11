@@ -11,11 +11,11 @@ a kanji or kanji compound and returns the corresponding RTK keywords or numbers 
 $ node index.js <option> <compound>
 ```
 where:
-* <option>
+* option
 
    - **kw** will copy the corresponding Heisig keywords for <compound> to the clipboard (Mac)
    - **ix** will copy the RTK (6th edition) indices for <compound> to the clipboard (Mac)
-* <compound> is a kanji character or compound.  For example, **新聞** is the kanji <compound> for newspaper
+* compound is a kanji character or compound.  For example, **新聞** is the kanji <compound> for newspaper
 
 ## CSV file format
 The file heisig-kanjis.csv contains the kanji's featured in James Heisig's "Remembering the Kanji" 1 & 3. Import this file into Google Sheets
